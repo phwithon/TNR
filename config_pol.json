@@ -1,0 +1,38 @@
+{
+    "rec4mit": {
+        "batch_size": 64,
+        "lr": 1e-3,
+        "epochs": 15,
+        "k": 10
+    },
+    "hdint": {
+        "batch_size": 64,
+        "lr": 3e-4,
+        "epochs": 15,
+        "gamma": 3.0,
+        "num_negatives": 4,
+        "embed_dim": 128,
+        "num_heads": 4,
+        "lambda": 1.3
+    },
+    "prism": {
+        "batch_size": 256,
+        "lr": 1e-3,
+        "lr_cls": 1e-3,
+        "class_epoch": 30,
+        "epochs": 150,
+        "timesteps": 500,
+        "beta_start": 1e-4,
+        "beta_end": 0.02,
+        "p": 0.1,
+        "fusion_mode": "seqattn",
+        "input_dim": 768,
+        "hidden_dim": 128,
+        "bottleneck_dim": 128,
+        "phi": 0.8,
+        "tau": 0.4,
+        "lambda_r": 1.0,
+        "diff_cof": 0.1,
+        "w": 21.0
+    }
+}
